@@ -1,0 +1,25 @@
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::: INFORMAÇÕES ::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+.. Para a troca do Papel de parede você deve substituir a imagem "fundo" (formato .png)
+(((((((((((((((     Mantenha com o mesmo nome     ))))))))))))))))) 
+
+... Para a troca da Logo basta substituir a imagem "logo" (formato .png)
+(((((((((((((((     Mantenha com o mesmo nome     )))))))))))))))))
+
+----------------------------------------------------------------------------------------
+
+.... Linguagens utilizadas .Html - .Css - .Js
+
+----------------------------------------------------------------------------------------
+...... Para edições no arquivo (index.html)
+linha 06 Edita o nome que aparece na aba do navegador
+Linha 11 Edita o nome no topo da página do formulario
+Linha 34 Edita o botão (pode mudar o nome do botão)
+Linha 35 Edita o botão (pode mudar o nome do botão)
+Linha 36 Edita o botão (pode mudar o nome do botão)
+..... Os crachás são gerados com 5,8cm X 7,5cm
+Para mudar basta voce acessar o arquivo (script.js)
+Linha 137 [ajusta a largura]
+Linha 138 [ajusta a altura]

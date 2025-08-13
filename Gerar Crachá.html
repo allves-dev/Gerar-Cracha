@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crachás Próvisorios</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="dark-mode">
+    <div class="container">
+        <h1>Gerador de Crachás</h1>
+
+        <form id="cadastro-form">
+            <div class="form-group">
+                <label for="nome">Colaborador:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome completo do colaborador" required/>
+            </div>
+            <div class="form-group">
+                <label for="funcao">Função:</label>
+                <input type="text" id="funcao" name="funcao" placeholder="Função do colaborador" required/>
+            </div>
+            <div class="form-group">
+                <label for="matricula">Matrícula:</label>
+                <input type="text" id="matricula" name="matricula" placeholder="4200000xxxxx" required/>
+
+            </div>
+            <div class="form-group">
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" name="empresa" placeholder="SLC Agrícola S.A.- Fazenda xxxxxxx" required/>
+            </div>
+
+            <!-- Botões centralizados e na mesma linha -->
+            <div class="form-group button-row">
+                <button type="submit" id="adicionar-cracha">Gerar</button>
+                <button type="button" id="imprimir-crachas">Imprimir</button>
+                <button type="button" id="limpar-tela">Limpar</button>
+            </div>
+        </form>
+        <div id="creditos-icone" title="Créditos / Informações">
+            &#x26A0;
+        </div>
+        
+        <div id="popup-creditos" class="popup">
+            <div class="popup-content">
+                <span class="fechar-popup">&times;</span>
+                <h3>Informações / Créditos</h3>
+                <p>Contribuidores:<br>- Genivaldo Santos (idealização/estrutura inicial)<br>- Ednilson Santos (ajustes visuais)</p>
+            </div>
+        </div>
+        
+        <div id="crachas-list">
+            <!-- Lista de crachás adicionados aparecerá aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
